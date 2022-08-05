@@ -16,9 +16,13 @@ body{
 .logo{
     padding: 10px 8px;
     width: 70px;
-    background-color: var(--second-color);
+    background-color: transparent;
     border-radius: 20px;
 }
+.logo:hover{
+    background-color:var(--second-color);
+}
+
 
 .navbar .navbar-nav .nav-link{
     color: #fff;
